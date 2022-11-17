@@ -8,7 +8,6 @@ object FactorialOfGivenNumber
       k=k-1
     }
     println(fact)
-
   }
 
 
