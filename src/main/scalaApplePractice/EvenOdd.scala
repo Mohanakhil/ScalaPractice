@@ -9,9 +9,13 @@ object EvenOdd
     }
   }
 
-  def main(args:Array[String]):Unit={
-    evenOdd(100)
+  def even_or_odd(n:Int):Boolean={
+    if(n%2==0) true
+    else false
   }
 
-
+  def main(args:Array[String]):Unit= {
+    evenOdd(100)
+    println(even_or_odd(101))
+  }
 }
