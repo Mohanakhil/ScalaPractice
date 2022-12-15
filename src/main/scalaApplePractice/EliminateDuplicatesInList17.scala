@@ -13,6 +13,10 @@ object EliminateDuplicatesInList17
   }
   def main(Args:Array[String]):Unit={
     val list=ListBuffer(1,1,2,2,3,3,3,4,4)
+//    list.foldLeft(List.empty[Int]){(acc,curr)=>
+//      if(acc.contains(curr)) acc
+//      else acc:+curr
+//    }
     val newList: ListBuffer[Int] = ListBuffer()
     eliminateDuplicates(list,newList)
     println(newList)

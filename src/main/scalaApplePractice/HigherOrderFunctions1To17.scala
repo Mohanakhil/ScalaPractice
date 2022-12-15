@@ -29,5 +29,17 @@ def main(Args:Array[String]):Unit={
 //  flatten(list3)
 
 
+
+
+
+  //remove duplicates in list
+//  val x:List[Int]=List(10,2,3,4,5,6,7,8)
+//   x.foldLeft((x.head,x(1))){(acc,ele)=>{
+//    acc._1 match {
+//      case acc._2 =>
+//    }
+//   }}
+
+
 }
 }
