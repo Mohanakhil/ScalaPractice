@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/scalaApplePractice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala99Practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/3ProblemsHW" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../project/target" />
     </content>

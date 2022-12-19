@@ -5,10 +5,10 @@ object FindNoOfElementsInList4
   val count: List[Int] =>Int= (list:List[Int])=>{
     @tailrec
     def findCountUsingMatching(list:List[Int],counter:Int):Int={
-      (list,counter) match {
-        case (Nil,_)=> 0
-        case (_ ::Nil,_)=>counter+1
-        case (_,_)=>findCountUsingMatching(list.tail,counter+1)
+      list match {
+        case Nil => 0
+        case _ ::Nil =>counter+1
+        case _ =>findCountUsingMatching(list.tail,counter+1)
       }
     }
     findCountUsingMatching(list,0)
@@ -29,7 +29,10 @@ object FindNoOfElementsInList4
     //using tail rec and patternMatching
     println(count(list))
 
-    //using
+    //using foldLeft
+    println(list.foldLeft(0)((acc, _)=>acc+1))
 
+    //using builtin function
+    println(list.size)
   }
 }

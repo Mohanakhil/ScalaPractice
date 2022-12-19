@@ -40,11 +40,5 @@ object FindLastElementOfList1
 
     //using builtin functions
     println(list.lastOption)
-
-
   }
-
-
-
-
 }
