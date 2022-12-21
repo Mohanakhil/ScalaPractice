@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala99Practice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/3ProblemsHW" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/BitWiseOperators" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../project/target" />
     </content>

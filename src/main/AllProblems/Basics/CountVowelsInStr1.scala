@@ -1,3 +1,5 @@
+package Basics
+
 import scala.annotation.tailrec
 
 object CountVowelsInStr1

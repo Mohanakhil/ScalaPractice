@@ -1,3 +1,5 @@
+package Basics
+
 object CheckLeapYearOrNot2
 {
   def checkLeapYear(year:Int):Boolean={
