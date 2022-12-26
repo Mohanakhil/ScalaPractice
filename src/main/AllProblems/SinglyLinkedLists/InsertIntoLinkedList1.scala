@@ -96,13 +96,5 @@ object InsertIntoLinkedList1
     addElementAtEnd(head,last)
 
     printLinkedList(head)
-
-
-
-
-
-
-
-
   }
 }
