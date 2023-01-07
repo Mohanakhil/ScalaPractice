@@ -1,4 +1,4 @@
-object MajorityElement
+object MajorityElement14
 {
   def majority(a: Array[Int]):Int={
     var max=0
@@ -60,18 +60,30 @@ object MajorityElement
   def inorder(root:Node,size:Int):Unit={
     if(root!=null){
       inorder(root.left,size)
-      if(root.data>size/2)
+      if(root.count>size/2)
         {
           println(root.data+" ")
         }
       inorder(root.right,size)
     }
-
   }
 
-    def main(Args:Array[String]):Unit={
+  def majority_v2(a: Array[Int]):Int={
+    var m:Map[Int,Int]=Map()
+    for(i<- 0 until a.length){
+      if(m.contains(a(i))){
+        m+=(a(i)->(m.get(a(i)).get+1))
+      }
+      else{
+        m+=(a(i)->1)
+      }
+    }
+    m.filter(x=>x._2>(a.length)/2).keySet.head
+  }
+
+    def main(Args:Array[String]):Unit= {
       var root:Node=null
-      val a:Array[Int]=Array(3,3,4,2,4,4,2,4,4)
+      var a:Array[Int]=Array(3,3,4,2,4,4,2,4,4)
       //using 2 for loops
       println(majority(a))
 
@@ -79,5 +91,35 @@ object MajorityElement
       for(i<- 0 until a.length){
         root=insert(root,a(i))
       }
+      if(maximumCount>(a.length/2)){
+        inorder(root,a.length)
+      }
+      else
+        println("no majority element found")
+
+  //using hashmap
+      println("using hashmap")
+      println(majority_v2(a))
+
+
+      println("using sorting technique")
+      //using sorting
+      a=a.sorted
+      var count=1
+      var max=0
+      var maximumElement=0
+      for(i<- 0 until a.length-1){
+        if(a(i)==a(i+1)){
+          count=count+1
+        }
+        if(count>max){
+          max=count
+          maximumElement=a(i)
+          count=1
+        }
+      }
+      println(maximumElement)
     }
+
+
 }

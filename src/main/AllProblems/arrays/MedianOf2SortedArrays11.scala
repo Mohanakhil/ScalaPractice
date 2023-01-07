@@ -180,7 +180,4 @@ val medianOfSortedArrays:(Array[Int],Array[Int])=>Int=(a:Array[Int],b:Array[Int]
     //Using Hard approach
     println(medianByPartition(a,b))
   }
-
-
-
 }

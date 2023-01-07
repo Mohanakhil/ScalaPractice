@@ -1,6 +1,6 @@
 import scala.annotation.tailrec
 
-object CheckIfAPairExistsWithGivenSum
+object CheckIfAPairExistsWithGivenSum15
 {
     def findPair_v1(a: Array[Int],sum:Int):(Int,Int)={
         for(i<-0 until a.length)

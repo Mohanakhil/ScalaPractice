@@ -1,6 +1,6 @@
 import scala.util.control.Breaks.break
 
-object TripletThatSumToGivenValue
+object TripletThatSumToGivenValue14
 {
   def findTriplet(a:Array[Int],sum:Int):Unit={
     for(i<- 0 until a.length){
