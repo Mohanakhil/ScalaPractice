@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/Algos/Sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/arrays" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/scala99" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/PreviousInterviewQuestions" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../project/target" />
     </content>
