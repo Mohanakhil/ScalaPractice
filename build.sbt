@@ -6,3 +6,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "ScalaPractice"
   )
+
+// https://mvnrepository.com/artifact/org.mongodb.scala/mongo-scala-driver
+//libraryDependencies += "org.mongodb.scala" %% "mongo-scala-driver" % "4.8.1"
