@@ -1,0 +1,6 @@
+full binary tree ==>has 0 or 2 children
+perfect binary tree=> has only 2 child
+complete binary tree=> filling from left to right
+balanced binary tree=> height of left and right are same
+unbalanced binary tree=> height of left and right are not same
+degenerate binary tree=> only one child for all (same like linkedlist)

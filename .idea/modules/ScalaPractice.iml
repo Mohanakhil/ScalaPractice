@@ -13,6 +13,9 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/scala99" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/PreviousInterviewQuestions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/SinglyLinkedLists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/Heaps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/JsonProblems" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/AllProblems/Basics" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../project/target" />
     </content>
