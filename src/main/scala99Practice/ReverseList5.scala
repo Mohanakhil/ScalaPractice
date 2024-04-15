@@ -12,7 +12,16 @@ object ReverseList5
     }
     reverseUsingPatternMatching(list,List())
   }
-
+  private val reverseListInMemory:List[Int]=>List[Int]= (list1:List[Int])=>{
+    @tailrec
+    def reverseList(list:List[Int], first:Int, last:Int):List[Int]={
+      if first >= last then
+        list
+      else
+        reverseList(list.slice(0,first):::list.slice(last-1,last):::list.slice(first+1,last-1):::list.slice(first,first+1):::list.slice(last,list.length), first + 1, last - 1)
+    }
+    reverseList(list1,0,list1.length)
+  }
   val  reverseList: List[Int] => List[Int] = (list:List[Int])=>{
     @tailrec
     def reverseListUsingIf(list:List[Int], acc:List[Int]):List[Int]={
@@ -46,6 +55,6 @@ object ReverseList5
         case _=> ele+:acc
       }
     }))
-
+    println(reverseListInMemory(list1))
 
 }}
